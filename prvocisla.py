@@ -1,4 +1,9 @@
+#Filip Jenis, kvinta B
+#Uloha: Prvocisla
 num = int(input('Zadaj číslo:'))
+if (num == 1):
+    print('Číslo musí byť väčie ako 1')
+    
 for i in range(2, num + 1):
     if(num % i == 0):
         prvocislo = 1
